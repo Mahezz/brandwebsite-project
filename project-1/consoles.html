@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Brand Website</title>
+  <link rel="stylesheet" href="../project-1/CSS/style.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="navbar">
+      <div class="div-logo">
+        <a class="logo-image" href="index.html">
+          <img src="Images/logo2.png">
+        </a>
+      </div>
+      <a class="navlink" href="about.html">About</a>
+      <a class="navlink" href="news.html">News</a>
+      <div class="dropdown">
+        <button class="dropbtn">Products
+        </button>
+        <div class="dropdown-content">
+          <a href="consoles.html">Consoles</a>
+          <a href="videogames.html">Videogames</a>
+          <a href="accesories.html">Accesories</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Contact
+        </button>
+        <div class="dropdown-content">
+          <a href="products/consoles.html">Form contact</a>
+          <a href="products/consoles.html">Location</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="three">
+      <br><br>
+      <div class="three-interior">
+        <h1 style="font-weight:bold;">New Consoles</h1>
+        <div>
+          <ul class="listing">
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src="Images/videogame1.jpg" alt="Blue running shoe" style="height: 100%" />
+              </a>
+
+              <div class="info">
+                <div class="title">Spider Remastered</div>
+                <div class="price">$64.99</div>
+              </div>
+            </li>
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src="Images/videogame2.jpg" alt="Blue running shoe" style="height: 100%" />
+              </a>
+              <div class="note no-stock">Out of stock</div>
+
+              <div class="info">
+                <div class="title">Lden Rin</div>
+                <div class="price">$29.99</div>
+              </div>
+            </li>
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src="Images/videogame3.jpg" alt="Blue running shoe" style="height: 100%" />
+              </a>
+              <div class="note on-sale">On sale</div>
+
+              <div class="info">
+                <div class="title"><a href="#">Animal C´ossing</a></div>
+                <div class="price sale">$20.50</div>
+                <div class="price old">$44.99</div>
+              </div>
+
+            </li>
+          </ul>
+        </div>
+        <br><br>
+        <h1 style="font-weight:bold;">Old times fly</h1>
+        <div>
+          <ul class="listing">
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src="Images/videogame1.jpg" alt="Blue running shoe" style="height: 100%" />
+              </a>
+
+              <div class="info">
+                <div class="title">Spider Remastered</div>
+                <div class="price">$64.99</div>
+              </div>
+            </li>
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src="Images/videogame2.jpg" alt="Blue running shoe" style="height: 100%" />
+              </a>
+
+              <div class="info">
+                <div class="title">Lden Rin</div>
+                <div class="price">$29.99</div>
+              </div>
+
+            </li>
+            <li class="product">
+              <a class="img-wrapper" href="#">
+                <img src="Images/videogame3.jpg" alt="Blue running shoe" style="height: 100%" />
+              </a>
+
+              <div class="info">
+                <div class="title"><a href="#">Animal C´ossing</a></div>
+                <div class="price">$29.99</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <br><br>
+    <footer>
+      <div class="footer">
+        <p>Copyright © 2022</p>
+      </div>
+    </footer>
+  </div>
+  </div>
+</body>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+
+</body>
+
+</html>

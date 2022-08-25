@@ -8,7 +8,7 @@
 
 <body>
   <div class="main">
-    <div class="navbar">
+    <div class="navbar" id="myTopnav">
       <div class="div-logo">
         <a class="logo-image" href="index.html">
           <img src="Images/logo2.png">
@@ -29,11 +29,17 @@
         <button class="dropbtn">Contact
         </button>
         <div class="dropdown-content">
-          <a href="products/consoles.html">Form contact</a>
-          <a href="products/consoles.html">Location</a>
+          <a href="formcontact.html">Form contact</a>
+          <a href="location.html">Location</a>
         </div>
       </div>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
+
+
+
+
+    
     <div class="container">
       <div class="slideshow-container">
 
@@ -155,14 +161,6 @@
   </div>
 </body>
 <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
 
   let slideIndex = 0;
   showSlides();
